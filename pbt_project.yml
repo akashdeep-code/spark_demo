@@ -25,6 +25,19 @@ pipelines:
       outputs: []
     subgraphs: []
     dependencies: {}
+  pipelines/test2:
+    name: test2
+    description: ''
+    author: deep.akash@prophecy.io
+    mode: batch
+    artefactID: ''
+    language: python
+    createdAt: '2026-04-28 05:22:07'
+    datasets:
+      inputs: []
+      outputs: []
+    subgraphs: []
+    dependencies: {}
 datasets:
   datasets/source:
     name: source
