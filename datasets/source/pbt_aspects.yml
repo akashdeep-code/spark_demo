@@ -1,0 +1,46 @@
+version: 1
+schema:
+  type: struct
+  fields:
+  - name: customer_id
+    type: long
+    nullable: true
+    metadata:
+      description: Unique identifier assigned to each customer.
+      mappings: []
+      tags: []
+  - name: customer_name
+    type: string
+    nullable: true
+    metadata:
+      description: Full name of the customer.
+      mappings: []
+      tags: []
+  - name: email
+    type: string
+    nullable: true
+    metadata:
+      description: Email address used by the customer for communication.
+      mappings: []
+      tags: []
+  - name: region
+    type: string
+    nullable: true
+    metadata:
+      description: Geographical region where the customer is located.
+      mappings: []
+      tags: []
+  - name: is_active
+    type: boolean
+    nullable: true
+    metadata:
+      description: Indicates whether the customer account is currently active.
+      mappings: []
+      tags: []
+  - name: created_date
+    type: date
+    nullable: true
+    metadata:
+      description: Date when the user account or record was created.
+      mappings: []
+      tags: []
