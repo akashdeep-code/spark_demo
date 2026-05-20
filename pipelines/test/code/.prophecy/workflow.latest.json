@@ -100,8 +100,8 @@
       "metadata" : {
         "label" : "source",
         "slug" : "source",
-        "x" : -620,
-        "y" : -140,
+        "x" : -640,
+        "y" : -160,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,
