@@ -79,16 +79,23 @@ sqlPipeline: null
 dependencies:
 - modifiedAt: '2026-04-28T05:08:50.411177Z'
   name: plibMaven
-  version: 9.2.0
+  version: 9.4.1
   id: '437534113'
   createdAt: '2026-04-28T05:08:50.411177Z'
   type: plibMaven
-- modifiedAt: '2026-04-28T05:08:50.411177Z'
-  name: plibPypi
-  version: 2.1.16
+  entity: Project
+  enabled: true
+- modifiedAt: '2026-07-07T07:04:35.195Z'
+  name: ProphecyLibsPython
+  version: 2.1.17
   id: '1421037695'
   createdAt: '2026-04-28T05:08:50.411177Z'
   type: plibPypi
+  enabled: true
+  description: Default dependency for Prophecy Libs
+  editable: true
+  scope: Project
+  entity: Project
 projectDependencies:
   '5':
     projectUID: 5
@@ -102,10 +109,10 @@ projectDependencies:
     projectUID: 4
     projectName: ProphecySparkBasicsPython
     repositoryPath: gitUri=http://gitserver:3000/Hyz8gPVP_team_2/Hyz8gPVP_project_4.git&subPath=
-    version: 0.2.55
+    version: 0.2.56
     isDefault: true
     author: null
-    createdAt: '2026-04-28 05:08:33'
+    createdAt: '2026-07-07 07:04:29'
 flags:
   shouldAddDefaultDependenciesIfAbsent: true
 pipelineConfigurations: {}

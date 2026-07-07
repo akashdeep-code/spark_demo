@@ -2,12 +2,12 @@ from setuptools import setup, find_packages
 setup(
     name = 'test2',
     version = '1.0',
-    packages = find_packages(include = ('test2*', )) + ['prophecy_config_instances.test2'],
-    package_dir = {'prophecy_config_instances.test2' : 'configs/resources/test2'},
+    packages = find_packages(include = ('test2*', )) + ['prophecy_config_instances', 'prophecy_config_instances.test2'],
+    package_dir = {'prophecy_config_instances' : 'configs/resources'},
     package_data = {'prophecy_config_instances.test2' : ['*.json', '*.py', '*.conf']},
     description = 'workflow',
     install_requires = [
-'prophecy-libs==2.1.16'],
+'prophecy-libs==2.1.17'],
     entry_points = {
 'console_scripts' : [
 'main = test2.pipeline:main'], },
